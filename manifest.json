@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Chromovie",
+	"description": "Most popular movies in your default tab",
+	"version": "1",
+	"author": "Maria Valero",
+
+	"browser_action": {
+		"default_title": "Click on me"
+	},
+
+	"background": { "scripts": ["background.js"] }
+}
